@@ -73,12 +73,12 @@ function AuthPage() {
         {/* Left side - Branding and information */}
         <div className="lg:w-1/2 flex flex-col justify-between p-8 lg:p-12 bg-gradient-to-br from-purple-600 to-pink-500 text-white">
           <div>
-            <Link to="/" className="flex items-center gap-3 mb-12">
+            <div className="flex gap-7">
               <div className="p-2 bg-white/20 rounded-lg backdrop-blur-sm">
                 <GraduationCap className="h-8 w-8" />
               </div>
-              <span className="font-bold text-2xl">EDUPLATFORM</span>
-            </Link>
+              <span className="font-bold text-2xl mt-2">COURSE STUDIO</span>
+            </div>
             
             <div className="mt-16 max-w-md">
               <h1 className="text-4xl font-bold mb-6">University Course Management System</h1>
@@ -119,7 +119,7 @@ function AuthPage() {
         <div className="lg:w-1/2 flex items-center justify-center p-8">
           <div className="w-full max-w-md">
             <div className="text-center mb-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-2">Welcome to EDUPlatform</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">Welcome to COURSE STUDIO</h2>
               <p className="text-gray-600">Sign in to access your courses</p>
             </div>
             
